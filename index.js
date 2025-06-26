@@ -29,7 +29,7 @@ let Cities = [
 ]
 
 app.get("/", (req, res)=>{
-    res.send(students)
+    res.send(Cities)
 })
 
 
